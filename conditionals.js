@@ -26,7 +26,7 @@ $(document).ready(
         if (clickCounter === 10)
         {
             clickCounter = 0;
-        };
+        }
 
 
 	}
@@ -46,11 +46,11 @@ $(document).ready(
 
         if (age < 18)
         {
-            $("birthYearOutput").text("child");
+            $("#birthYearOutput").text("child");
         }
         else
         {
-            $("birthYearOutput").text("Adult");
+            $("#birthYearOutput").text("Adult");
         }
 
         // If they are 18 or over, print "Adult" instead
